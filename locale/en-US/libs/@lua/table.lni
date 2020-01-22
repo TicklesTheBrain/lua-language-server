@@ -7,7 +7,7 @@ return list[i]..sep..list[i+1] ··· sep..list[j]
 ]]
 
 [insert]
-description = 'Inserts element `value` at position `pos` in `list`.'
+description = 'Inserts element `svalue` at position `spos` in `slist`.'
 
 [insertMine]
 description = 'Inserts element `shmelement` at position `shposition` in `shlist`.'

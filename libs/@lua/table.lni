@@ -42,14 +42,14 @@ type = 'string'
 
 [insert]
 [[.args]]
-name = 'list'
+name = 'slist'
 type = 'table'
 ``````````
-name = 'pos'
+name = 'spos'
 type = 'integer'
 optional = 'self'
 ``````````
-name = 'value'
+name = 'svalue'
 type = 'any'
 
 [insertMine]
@@ -61,7 +61,7 @@ name = 'posMine'
 type = 'integer'
 optional = 'self'
 ``````````
-name = 'valueMIne'
+name = 'valueMine'
 type = 'any'
 
 [maxn]
