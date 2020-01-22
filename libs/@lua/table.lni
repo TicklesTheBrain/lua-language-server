@@ -52,6 +52,18 @@ optional = 'self'
 name = 'value'
 type = 'any'
 
+[insertMine]
+[[.args]]
+name = 'listMine'
+type = 'table'
+``````````
+name = 'posMine'
+type = 'integer'
+optional = 'self'
+``````````
+name = 'valueMIne'
+type = 'any'
+
 [maxn]
 version = {'Lua 5.1', 'LuaJIT'}
 [[.args]]
