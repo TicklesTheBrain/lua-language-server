@@ -9,6 +9,9 @@ return list[i]..sep..list[i+1] ··· sep..list[j]
 [insert]
 description = 'Inserts element `value` at position `pos` in `list`.'
 
+[insertMine]
+description = 'Inserts element `shmelement` at position `shposition` in `shlist`.'
+
 [maxn]
 description = 'Returns the largest positive numerical index of the given table, or zero if the table has no positive numerical indices.'
 
