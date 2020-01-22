@@ -219,7 +219,7 @@ local function mergeLibs(alllibs, libs, libName)
 end
 
 local function loadLocale(language, relative)
-    local localePath = ROOT / 'locale' / language / relative
+    local localePath = 'W:\\CanteenOnline\\Tools\\LuaLanguageServer\\locale' / language / relative
     local localeBuf = io.load(localePath)
     if localeBuf then
         local locale = table.container()
@@ -263,7 +263,7 @@ local function init()
     Library.other   = table.container()
     Library.custom  = table.container()
 
-    for libPath in (ROOT / 'libs'):list_directory() do
+    for libPath in ('W:\\CanteenOnline\\Tools\\LuaLanguageServer\\libs'):list_directory() do
         local enableGlobal
         local libName = libPath:filename():string()
         for path in scan(libPath) do
